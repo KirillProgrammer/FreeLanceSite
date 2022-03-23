@@ -1,0 +1,13 @@
+.title {
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 84px;
+
+    color: #252525;
+    span {
+        color: #1E88E5;
+    }
+    &_find {
+        text-align: right;
+    }
+}

@@ -1,4 +1,18 @@
+@media(max-width: 1440px) {
+    .find {
+        grid-template-columns: 580px 601px;
+        column-gap: 80px;
+        img {
+            width: 85%;
+            margin-top: 40px;
+        }
+    }
+}
+
 @media(max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
     nav {
         ul {
             li {
@@ -39,9 +53,19 @@
             }
         }
     }
+    .find {
+        grid-template-columns: 1fr;
+        grid-template-rows: unset;
+        img {
+            display: none;
+        }
+    }
 }
 
 @media(max-width: 993px) {
+    .container {
+        width: 750px;
+    }
     nav {
         ul {
             margin-top: 22px;
@@ -61,7 +85,7 @@
         }
     }
     .first {
-        padding: 220px 61px 120px;
+        padding: 220px 61px 70px;
         &__text {
             height: auto;
             h1 {
@@ -102,9 +126,21 @@
             }
         }
     }
+    .find {
+        .title_find {
+            margin-top: 0;
+            font-size: 36px;
+        }
+        &__descr {
+            font-size: 20px;
+        }
+    }
 }
 
 @media(max-width: 769px) {
+    .container {
+        width: 560px;
+    }
     nav {
         ul {
             padding-left: 4px;
@@ -157,6 +193,10 @@
 }
 
 @media (max-width: 577px) {
+    .container {
+        width: 100%;
+        padding: 2px;
+    }
     nav {
         display: none;
     }
@@ -194,6 +234,20 @@
         }
         &__opportunities {
             width: 300px;
+        }
+    }
+    .find {
+        &__text {
+            .title_find {
+                text-align: center;
+                font-size: 25px;
+                line-height: 30px;
+            }
+        }
+        &__descr {
+            text-align: center;
+            font-size: 15px;
+            line-height: 20px;
         }
     }
 }

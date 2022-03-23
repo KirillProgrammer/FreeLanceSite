@@ -8,8 +8,15 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.container {
+    width: 1268px;
+    margin: 0 auto;
+}
+
 @import './blocks/button/btn';
+@import './blocks/title/title';
 @import './blocks/nav/nav';
 @import './blocks/first/first';
+@import './blocks/find/find';
 
 @import './base/media/media';
