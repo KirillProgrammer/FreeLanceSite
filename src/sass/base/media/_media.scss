@@ -1,0 +1,219 @@
+@media(max-width: 1200px) {
+    nav {
+        ul {
+            li {
+                font-size: 16px;
+            }
+            li:nth-child(4) {
+                flex: 1.2
+            }
+            .lastLi {
+                margin-right: 0;
+            }
+            .logo {
+                flex: 3;
+            }
+        }
+    }
+    .btn {
+        &_nav {
+            width: 137px;
+            margin-right: 20px;
+            height: 40px;
+        }
+    }
+    .first {
+        padding: 220px 76px;
+        &__women {
+            right: 26px;
+            top: 227px;
+        }
+        &__opportunities {
+            &__item {
+                h3 {
+                    font-size: 25px;
+                }
+                p {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 993px) {
+    nav {
+        ul {
+            margin-top: 22px;
+            .logo {
+                display: none;
+            }
+        }
+    }
+    .btn {
+        &_nav {
+            font-size: 18px;
+        }
+        &_freelancer {
+            width: 230px;
+            height: 60px;
+            font-size: 20px;
+        }
+    }
+    .first {
+        padding: 220px 61px 120px;
+        &__text {
+            height: auto;
+            h1 {
+                font-size: 50px;
+                line-height: 61px;
+            }
+            p {
+                font-size: 20px;
+                line-height: 30px;
+            }
+        }
+        &__women {
+            display: none;
+        }
+        &__freelance {
+            &__search {
+                input {
+                    height: 60px;
+                    width: 100%;
+                    padding: 20px 20px;
+                }
+                button {
+                    top: 5px;
+                }
+            }
+        }
+        &__opportunities {
+            margin-top: 100px;
+            padding: 41px 55px;
+            height: 300px;
+            &__item {
+                h3 {
+                    font-size: 23px;
+                }
+                p {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 769px) {
+    nav {
+        ul {
+            padding-left: 4px;
+            li {
+                a {
+                    span {
+                        margin-left: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .first {
+        padding: 220px 32px 60px;
+        &__text {
+            height: auto;
+            width: 490px;
+            h1 {
+                font-size: 40px;
+                line-height: 50px;
+            }
+            p {
+                font-size: 20px;
+                line-height: 30px;
+            }
+        }
+        &__freelance {
+            flex-direction: column;
+            justify-content: space-between;
+            height: 160px;
+            width: auto;
+            margin-top: 45px;
+        }
+        &__opportunities {
+            height: 700px;
+            margin: 40px auto;
+            flex-direction: column;
+            align-items: center;
+            width: 370px;
+            &__item {
+                h3 {
+                    font-size: 20px;
+                }
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 577px) {
+    nav {
+        position: relative;
+        margin-left: 0;
+        width: 95vw;
+        height: 115px;
+        ul {
+            margin-left: 10px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 1fr 1fr;
+            row-gap: 15px;
+            li {
+                font-size: 14px;
+                text-align: center;
+                a {
+                    span {
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+    }
+    .btn {
+        &_nav {
+            font-size: 16px;
+        }
+        &_freelancer {
+            width: 170px;
+            height: 40px;
+            font-size: 15px;
+        }
+    }
+    .first {
+        padding: 65px 2px 60px;
+        &__text {
+            width: 300px;
+            h1 {
+                font-size: 25px;
+                line-height: 30px;
+                margin-top: 40px;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: 15px;
+                line-height: 20px;
+                margin-top: 0;
+            }
+        }
+        &__freelance {
+            margin-top: 25px;
+            &__search {
+                width: 100%;
+            }
+        }
+        &__opportunities {
+            width: 300px;
+        }
+    }
+}
+

@@ -1,0 +1,106 @@
+.first {
+    position: relative;
+    z-index: 1;
+    padding: 252px 122px;
+    top: -82px;
+    background: url("../img/FirstScreen/bg.png") center (center/cover) no-repeat;
+    &__text {
+        width: 634px;
+        height: 285px;
+        h1 {
+            font-weight: 700;
+            font-size: 65px;
+            line-height: 98px;
+    
+            color: #252525;
+        }
+        p {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 36px;
+
+            color: #252525;
+
+            opacity: 0.6;
+        }
+    }
+    &__women {
+        position: absolute;
+        z-index: -2;
+        right: 126px;
+        top: 210px;
+    }
+    &__freelance {
+        display: flex;
+        justify-content: start;
+        width: 700px;
+        height: 77px;
+        margin-top: 84px;
+        &__search {
+            position: relative;
+            height: 76px;
+            width: 420px;
+            input {
+                height: 100%;
+                width: 100%;
+                padding: 25px 23px;
+                font-weight: 400;
+                font-size: 20px;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+                border-radius: 10px;
+                border: none;
+                color: #9D9D9D;
+            }
+            button {
+                position: absolute;
+                top: 13px;
+                right: 10px;
+                background-color: #1E88E5;
+                border: none;
+                height: 50px;
+                width: 50px;
+                border-radius: 100%;
+            }
+        }
+    }
+    &__opportunities {
+        display: flex;
+        justify-content: space-between;
+        background-color: #fff;
+        width: 86vw;
+        height: 325px;
+        margin-top: 172px;
+        padding: 41px 76px;
+        box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.05);
+        border-radius: 10px;
+        &__item {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            width: 305px;
+            height: 243px;
+            .circle {
+                margin: 0 auto;
+                height: 111px;
+                width: 111px;
+                background: #F2FAFA;
+                border-radius: 100%
+            }
+            h3 {
+                margin-top: 15px;
+                margin-bottom: 0;
+                font-weight: 500;
+                font-size: 30px;
+                
+                color: #252525;
+            }
+            p{
+                margin: 0;
+                font-weight: 400;
+                font-size: 24px;
+
+                color: #9D9D9D;
+            }
+        }
+    }
+}
