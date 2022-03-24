@@ -10,9 +10,6 @@ tns({
         400: {
             edgePadding: 40
         },
-        500: {
-            edgePadding: 70,
-        },
         770: {
             edgePadding: 150,
         },
@@ -21,9 +18,17 @@ tns({
             gutter: 10,
             edgePadding: 50,
         },
-        1201: {
+        1265: {
+            items: 2,
+            edgePadding: 60,
+        },
+        1266: {
             items: 3,
-            gutter: 60,
+            edgePadding: 10,
+        },
+        1280: {
+            items: 3,
+            edgePadding: 5
         }
     }
 });

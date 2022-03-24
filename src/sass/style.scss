@@ -6,7 +6,9 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
+
 
 .container {
     width: 1268px;
@@ -21,5 +23,6 @@ body {
 @import './blocks/works/works';
 @import './blocks/category/category';
 @import './blocks/portfolio/portfolio';
+@import './blocks/subscribe/subscribe';
 
 @import './base/media/media';
