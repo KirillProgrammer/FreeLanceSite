@@ -29,6 +29,9 @@
                 border: none;
                 transition: .3s;
             }
+            &__btn:nth-child(n+4) {
+                display: none;
+            }
             .tns-nav-active {
                 width: 82px;
                 height: 12px;

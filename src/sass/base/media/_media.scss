@@ -90,6 +90,9 @@
     .portfolio {
         .slider {
             &__nav {
+                &__btn:nth-child(n+4) {
+                    display: block;
+                }
                 &__btn:nth-child(n+6) {
                     display: none;
                 }

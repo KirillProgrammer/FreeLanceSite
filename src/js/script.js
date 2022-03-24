@@ -21,7 +21,7 @@ tns({
             gutter: 10,
             edgePadding: 50,
         },
-        1200: {
+        1201: {
             items: 3,
             gutter: 60,
         }
